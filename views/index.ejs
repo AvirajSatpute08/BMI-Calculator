@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <body>
+       <center><h1>BMI Calculator</h1></center> 
+        <form action="/calculate" method="post">
+ 
+            <label for="gender">Gender:</label>
+       <center>Male<input type="radio" name="gender" value="male"> 
+        Female<input type="radio" name="gender" value="female">
+    </center> 
+
+        <br><br>
+
+            Weight: <input type="text" name="weight" />
+            <select name="weight">
+                <option value="kg">kg</option>
+                <option value="lbs">lbs</option>
+            </select><br>
+
+            <label>Height: </label>
+            <input type="text" name="height" />
+            <select name="height">
+                <option value="cm">cm</option>
+                <option value="feet">feet</option>
+                <option value="meters">meters</option>
+                <option value="inches">inches</option>
+            </select><br><br>
+
+           
+
+            <input type="submit" value="Calculate BMI" />
+        </form>
+    </body>
+</html>
